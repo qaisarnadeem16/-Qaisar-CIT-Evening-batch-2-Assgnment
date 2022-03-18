@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+
+<body>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FCareer-Institute%2F158513344794876&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <iframe width="300" height="250" src="https://www.youtube.com/embed/OTeTVcJtrrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <form>
+        <H1>Payment Form</H1>
+        <h2>Contact information</h2>
+        <p>Name</p><input type="text" placeholder="Enter the Name" required name="name">
+        <p>Email</p><input type="email" placeholder="Enter the Email" required name="Email">
+        <p>CNIC</p>
+        <input type="number" name="cnic" id="" required placeholder="1234-567890-9">
+        <p>Gender</p>
+        <input type="radio" name="gen" value="1"> <span>Male</span>
+        <input type="radio" name="gen" value="2"> <span>Female</span>
+        <p>Pin Code</p>
+        <input type="number" name="pincode" required placeholder="123456">
+        <p>Address</p>
+        <textarea name="address" id="" cols="30" rows="1" placeholder="Address"></textarea>
+        <h2> Payment Detail</h2>
+        <p> Card Type:
+
+            <select name="cardtype" id="ct">
+
+                <option value="select any One">Select </option>
+                <option value="Master"> Master</option>
+                <option value="Visa">VIsa</option>
+            </select>
+        <p>Card Number <input type="number" name="cardno"></p>
+        <p>Expire Date: </p><input type="date">
+        </p>
+        <button>Submit</button>
+        <button>Reset</button>
+
+    </form>
+</body>
+
+</html>
